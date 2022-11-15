@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10B5D26291A4AA300698863 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10B5D25291A4AA300698863 /* ListTableViewController.swift */; };
+		B10B5D28291A52D500698863 /* webreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10B5D27291A52D500698863 /* webreviewViewController.swift */; };
 		B155022D29193F7400E9EC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155022C29193F7400E9EC2B /* AppDelegate.swift */; };
 		B155022F29193F7400E9EC2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155022E29193F7400E9EC2B /* SceneDelegate.swift */; };
 		B155023129193F7400E9EC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155023029193F7400E9EC2B /* ViewController.swift */; };
 		B155023429193F7400E9EC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B155023229193F7400E9EC2B /* Main.storyboard */; };
 		B155023629193F7500E9EC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B155023529193F7500E9EC2B /* Assets.xcassets */; };
 		B155023929193F7500E9EC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B155023729193F7500E9EC2B /* LaunchScreen.storyboard */; };
+		B15502432919442B00E9EC2B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15502422919442B00E9EC2B /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B10B5D25291A4AA300698863 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		B10B5D27291A52D500698863 /* webreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webreviewViewController.swift; sourceTree = "<group>"; };
 		B155022929193F7400E9EC2B /* app1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B155022C29193F7400E9EC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B155022E29193F7400E9EC2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		B155023529193F7500E9EC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B155023829193F7500E9EC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B155023A29193F7500E9EC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15502422919442B00E9EC2B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				B155022C29193F7400E9EC2B /* AppDelegate.swift */,
 				B155022E29193F7400E9EC2B /* SceneDelegate.swift */,
+				B15502422919442B00E9EC2B /* SecondViewController.swift */,
 				B155023029193F7400E9EC2B /* ViewController.swift */,
 				B155023229193F7400E9EC2B /* Main.storyboard */,
+				B10B5D27291A52D500698863 /* webreviewViewController.swift */,
+				B10B5D25291A4AA300698863 /* ListTableViewController.swift */,
 				B155023529193F7500E9EC2B /* Assets.xcassets */,
 				B155023729193F7500E9EC2B /* LaunchScreen.storyboard */,
 				B155023A29193F7500E9EC2B /* Info.plist */,
@@ -141,6 +150,9 @@
 				B155023129193F7400E9EC2B /* ViewController.swift in Sources */,
 				B155022D29193F7400E9EC2B /* AppDelegate.swift in Sources */,
 				B155022F29193F7400E9EC2B /* SceneDelegate.swift in Sources */,
+				B10B5D26291A4AA300698863 /* ListTableViewController.swift in Sources */,
+				B15502432919442B00E9EC2B /* SecondViewController.swift in Sources */,
+				B10B5D28291A52D500698863 /* webreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
